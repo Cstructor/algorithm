@@ -1,0 +1,17 @@
+using System;
+
+public class BigData
+{
+  int[] array = new int[10000000000];
+}
+
+public class Program 
+{
+  static void Main()
+  {
+    while (true)
+    {
+      BigData bigData = new BigData();
+    }
+  }
+}
